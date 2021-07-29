@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="En GIRO Estudio de Cerámica brindamos talleres fijos que se acomodan a tus conocimientos y horarios"
+    />
+    <meta
+      name="keywords"
+      content="estudio, cerámica, pottery, workshop, taller, artesanía, handmade, semanal, mensual, presencial"
+    />
+    <title>GIRO-Taller</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div
+        class="container-fluid navBar flex-column d-flex justify-content-around"
+      >
+        <div class="row text-center">
+          <div class="logo navBar__logo col-12">
+            <a href="../index.html"
+              ><img
+                class="logo navBar__logo"
+                src="../imagenes/logoweb16046.png"
+                alt="Logo de GIRO Estudio de cerámica"
+            /></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <nav>
+              <ul class="nav nav-pills nav-fill">
+                <li class="nav-item">
+                  <a class="nav-link navBar__navlinks" href="../index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link navBar__navlinks"
+                    href="../coleccion/index.html"
+                    >Colección</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="
+                      nav-link
+                      active
+                      navbar__navlinks
+                      navBar__navlinks--active
+                    "
+                    aria-current="page"
+                    href="../taller/index.html"
+                    >Taller</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link navBar__navlinks"
+                    href="../workshops/index.html"
+                    >Workshops</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link navBar__navlinks"
+                    href="../contacto/index.html"
+                    >Contacto</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="mainTaller container-fluid">
+      <div class="tallerFather division row">
+        <div class="divisionA col-6 col-sm-8">
+          <h1>Taller</h1>
+          <section>
+            <div class="text">
+              <p>
+                Tenés 3 opciones para elegir como querés venir al taller:
+                Intensivo:6 hs todos los sabados del mes Semanal: martes y
+                jueves 3 hs por turno Mensual: todos lunes y miercoles del mes
+                que elijas
+              </p>
+            </div>
+            <div class="forms">
+              <br />
+              <form action="" method="POST">
+                <br />
+                <label class="form__nombre--required mb-3" for="nombre"
+                  >Nombre:</label
+                >
+                <input type="text" id="nombre" name="nombre" required />
+                <br />
+                <label class="form__apellido--required mb-3" for="Apellido"
+                  >Apellido:</label
+                >
+                <input type="text" id="Apellido" name="Apellido" required />
+                <br />
+                <label class="form__mail--required mb-3" for="mail"
+                  >Mail:</label
+                >
+                <input type="text" id="mail" name="mail" required />
+                <br />
+                Modalidad:
+                <select
+                  class="form__modalidad mb-3"
+                  name="Modalidad"
+                  id="Modalidad"
+                >
+                  <option value="Intensivo">Intensivo</option>
+                  <option value="Semanal">Semanal</option>
+                  <option value="Mensual">Mensual</option>
+                </select>
+                <br />
+                Horario:
+                <select class="form__horario mb-3" name="Horario" id="Horario">
+                  <option value="Mañana">Mañana</option>
+                  <option value="Tarde">Tarde</option>
+                </select>
+                <br />
+                Cuando querés empezar:
+                <select class="form__fecha" name="fecha" id="fecha">
+                  <option value="fecha1">fecha1</option>
+                  <option value="fecha2">fecha2</option>
+                  <option value="fecha3">fecha3</option>
+                </select>
+                <br />
+                <br />
+                <input
+                  class="ctaButtons form__boton"
+                  type="submit"
+                  value="Reservá tu lugar"
+                />
+              </form>
+            </div>
+          </section>
+        </div>
+        <div class="divisionB col-6 col-sm-4">
+          <div class="decoDivision">
+            <img
+              class="imgDeco decoDivision__imagen1"
+              src="../imagenes/taller1.jpeg"
+              alt="persona retocando piezas de cerámica crudas"
+            />
+            <img
+              class="imgDeco decoDivision__imagen2"
+              src="../imagenes/taller2.jpeg"
+              alt="persona llenando de barbotina moldes de yeso"
+            />
+            <img
+              class="imgDeco decoDivision__imagen3"
+              src="../imagenes/taller3.jpeg"
+              alt="persona esponjeando una pieza de cerámica"
+            />
+            <img
+              class="imgDeco decoDivision__imagen4"
+              src="../imagenes/taller4.jpeg"
+              alt="persona sosteniendo herramientas de cerámica que se usan en alfarería"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer specialFooter container-fluid">
+      <div class="row justify-content-start">
+        <div class="socialMedia footer__socialMedia col-12 justify-self-start">
+          <img src="../imagenes/facebook.png" alt="logo facebook" />
+          <img src="../imagenes/instagram.png" alt="logo instagram" />
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

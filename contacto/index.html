@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="GIRO Estudio de cerámica, contactáte con nosotros para asesorarte, reservar piezas únicas o anotarte en el taller y workshops"
+    />
+    <meta
+      name="keywords"
+      content="estudio, cerámica, pottery, workshop, taller, artesanía, handmade, consulta, reserva, asesoramiento"
+    />
+    <title>GIRO-Contacto</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="grilla">
+      <header>
+        <div
+          class="
+            container-fluid
+            navBar
+            flex-column
+            d-flex
+            justify-content-around
+          "
+        >
+          <div class="row text-center">
+            <div class="logo navBar__logo col-12">
+              <a href="../index.html"
+                ><img
+                  class="logo navBar__logo"
+                  src="../imagenes/logoweb16046.png"
+                  alt="Logo de GIRO Estudio de cerámica"
+              /></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <nav>
+                <ul class="nav nav-pills nav-fill">
+                  <li class="nav-item">
+                    <a class="nav-link navBar__navlinks" href="../index.html"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link navBar__navlinks"
+                      href="../coleccion/index.html"
+                      >Colección</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link navBar__navlinks"
+                      href="../taller/index.html"
+                      >Taller</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link navBar__navlinks"
+                      href="../workshops/index.html"
+                      >Workshops</a
+                    >
+                  </li>
+                  <li class="nav-item active" aria-current="page">
+                    <a
+                      class="
+                        nav-link
+                        active
+                        navbar__navlinks
+                        navBar__navlinks--active
+                      "
+                      href="../contacto/index.html"
+                      >Contacto</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="mainContacto container-fluid">
+        <div class="division row">
+          <div class="divisionA col-6 col-sm-8">
+            <h1 class="titles">Contacto</h1>
+            <section class="forms">
+              <form action="" method="POST">
+                <br />
+                <label class="form__nombre--required" for="nombre"
+                  >Nombre:</label
+                >
+                <input
+                  class="ms-2"
+                  type="text"
+                  id="nombre"
+                  name="nombre"
+                  required
+                />
+                <br />
+                <label class="form__apellido--required mt-3" for="Apellido"
+                  >Apellido:</label
+                >
+                <input
+                  class="ms-1"
+                  type="text"
+                  id="Apellido"
+                  name="Apellido"
+                  required
+                />
+                <br />
+                Motivo de consulta:
+                <select
+                  class="form__motivo mt-2 mb-2"
+                  name="Motivo de consulta"
+                  id="motivo de consulta"
+                >
+                  <option value="reserva">reserva</option>
+                  <option value="pedido">pedido</option>
+                  <option value="pregunta">pregunta</option>
+                </select>
+                <br />
+                Mensaje:
+                <br />
+                <textarea
+                  class="form__mensaje mt-2"
+                  name="mensaje"
+                  id="mensaje"
+                  placeholder="Escriba aquí"
+                  cols="20"
+                  rows="10"
+                ></textarea>
+                <br />
+                <input
+                  class="ctaButtons ctaButtons__contacto form__boton"
+                  type="submit"
+                  value="ENVIAR"
+                />
+              </form>
+            </section>
+          </div>
+
+          <div class="divisionB imageGrid col-6 col-sm-4">
+            <div class="decoDivision">
+              <img
+                class="squareImg decoDivision__imagen1"
+                src="../imagenes/contacto1.jpg"
+                alt=" pequeños cuencos de cerámica rústica con forma de hojas con pasta roja"
+              />
+              <img
+                class="squareImg decoDivision__imagen2"
+                src="../imagenes/contacto2.jpg"
+                alt="tazas bajas de cerámica blanca rústica con pasta roja"
+              />
+              <img
+                class="squareImg decoDivision__imagen3"
+                src="../imagenes/contacto3.jpg"
+                alt="taza alta de cerámica blanca rústica con pasta roja"
+              />
+              <img
+                class="squareImg decoDivision__imagen4"
+                src="../imagenes/contacto4.jpg"
+                alt="platos blancos de cerámica rústica con pasta roja"
+              />
+            </div>
+          </div>
+        </div>
+      </main>
+      <div class="footerGrid">
+        <footer class="footer specialFooter container-fluid">
+          <div class="row justify-content-start">
+            <div
+              class="socialMedia footer__socialMedia col-12 justify-self-start"
+            >
+              <img src="../imagenes/facebook.png" alt="logo facebook" />
+              <img src="../imagenes/instagram.png" alt="logo instagram" />
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
