@@ -88,6 +88,7 @@ header .navBar .active {
 .specialFooter {
   position: fixed;
   bottom: 0;
+  z-index: -1;
 }
 
 footer {
@@ -426,7 +427,7 @@ footer .socialMedia {
 }
 
 /*MEDIA QUERIES*/
-/*DESKTOP*/
+/*DESKTOP (1920x1080)*/
 @media only screen and (min-width: 1919px) {
   .mainOrg .talleres h2, .mainOrg .talleres .h2 {
     color: white;
@@ -501,6 +502,28 @@ footer .socialMedia {
     height: 40vh;
     margin-top: 103px;
     margin-right: -81px;
+  }
+}
+/*LAPTOP L*/
+@media only screen and (min-width: 770px) and (max-width: 1800px) {
+  .division .divisionA {
+    margin-left: 111px;
+    padding: 0 0 0 397px;
+  }
+  .division .divisionA h1, .division .divisionA .h1 {
+    margin-left: -628px;
+  }
+  .division .divisionB {
+    margin-left: -94px;
+    width: 584px;
+  }
+  .division .divisionB .decoDivision {
+    height: 60vh;
+    margin-top: 0;
+  }
+
+  .mainContacto {
+    margin-top: 150px;
   }
 }
 /*IPAD*/
